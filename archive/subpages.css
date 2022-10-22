@@ -1,0 +1,54 @@
+/* main content containers */
+
+div.registration_box h1 {
+  color: #DA251C; 
+  font-size: 20px; 
+  font-family: Georgia;
+  border-bottom: 1px dotted #71706D;
+  margin-bottom: 10px;
+}
+div.registration_box h2 {  
+  color: #DA251C; 
+  font-size: 18px; 
+}
+
+p.ekobilet{ float: left; width: 450px; margin-top: 10px;}
+img.ekobilet_img{ float: right; margin-top: 10px; }
+
+div.sponsors_box p{
+  float: left;
+  display: inline;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+ul.speakers_list { list-style-type: none; }
+ul.speakers_list li{ 
+  width: 277px;
+  float: left;
+  display: inline;
+}
+ul.speakers_list.extended li{ 
+  float: none;
+  display: block;
+  width: 100%;
+  border-bottom:1px dotted #71706D;
+  margin-top:10px;
+  padding-bottom:10px;
+}
+
+ul.speakers_list.extended li div.speaker_info{
+  width:400px;
+  margin-top:62px;
+}
+ul.speakers_list.extended li a.speaker_image{
+  margin-right:10px;
+}
+
+a.speaker_image{ float: left; display: inline; }
+div.speaker_info{ float: left; display: inline; }
+
+p.speaker_name{ font-size: 15px; }
+p.speaker_talk {margin-top: 10px;}
+

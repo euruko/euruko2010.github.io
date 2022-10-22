@@ -1,0 +1,63 @@
+#header {
+  background: transparent url(/menu_bg_final.gif) repeat-x top left;
+  width: 100%; }
+
+#footer{
+  background: transparent url(/menu_bg_down.gif) repeat-x top left;
+  width: 100%; }
+
+#nav {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 910px;
+  height: 45px;
+  margin-bottom: 20px; }
+  #nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: auto; }
+    #nav ul li {
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0; }
+      #nav ul li a, #nav ul li.user_information {
+        font-size: 13px;
+        display: block;
+        float: left;
+        color: #3D3D3D;
+        text-decoration: none;
+ 	font-weight: normal;
+        padding: 12px 16px 11px;
+        border-bottom: none;
+        background: transparent url(/nav_divider.gif) no-repeat top right; }
+      #nav ul li a.home { border-left: 1px solid #b3b2b2; }
+      #nav ul li a:hover { color: #FFFFFF; background: #c03636; }
+      #nav ul li.selected a { color: #FFFFFF; background: #ba170f; }
+
+#user-menu { float: right; }
+
+#user-menu ul li a { background-position: top left; }
+
+#nav_bottom{
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 910px;
+  height: 30px; 
+  font-size: 11px;
+}
+
+#nav_bottom #euruko{
+  float: left;
+  display: inline;
+  color: #71706d;
+  margin-top: 10px;
+}
+
+#nav_bottom #contact_us{
+  float: right;
+  display: inline;
+  margin-top: 10px;
+}

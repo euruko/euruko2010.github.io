@@ -1,0 +1,127 @@
+/* main content containers */
+
+body { 
+  margin: 0; 
+  padding: 0; 
+  text-align: center;font-family: sans-serif;
+  font-size: small;
+}
+
+div#wrapper { 
+  width: 910px; 
+  margin: 40px auto; 
+  text-align: center; 
+  padding: 0;
+}
+
+/*div#logo_banner{
+  width: 760px;
+  height: 242px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent url(/banner.jpg) no-repeat top left; 
+} */
+
+div#logo{
+  width: 412px;
+  height: 148px;
+  background: transparent url(/euruko_logo_final.gif) no-repeat top left; 
+  float: left;
+  display: inline;
+} 
+div#whats_euruko{
+  width: 274px;
+  float: right;
+  display: inline;
+  text-align: left;
+  margin-top: 50px;
+  color: #71706d;
+  font-size: 12px;
+  font-family: Georgia;
+}
+
+div#whats_euruko span { font-weight: bold; } 
+
+div#main { 
+  width: 554px; 
+  margin: 15px auto 0 auto;
+  padding-bottom: 10px;
+  text-align: left;
+  float: left; 
+}
+      
+div#sidebar { 
+  width: 274px; 
+  margin: 0 auto 200px auto;
+  text-align: left; 
+  float: right;
+}
+
+/* EOF main content containers */
+
+/* blog */
+
+div.blog_post{ margin-top: 20px; }
+div.blog_post.first{ margin-top: 0; }
+div.blog_post h2{ color: #da251c; }
+div.blog_post .blog_header { border-bottom: 1px dotted #71706d; margin-bottom: 10px;}
+div.blog_post .blog_header h2{ float: left; display: inline; }
+div.blog_post .blog_header h3{ 
+  color: #71706D;
+  float: right; 
+  display: inline; 
+  background: transparent url(/calendar.gif) no-repeat center left; 
+  padding-left: 20px;
+  margin-top: 5px;
+  font-size:12px;
+  margin-top:5px;
+}
+
+div.blog_post p{ font-size: 13px; }
+div.blog_post img{ margin-right: 10px; border: 1px solid #e3e4e6; }
+
+p.images{ margin-top: 10px; }
+
+p.first_p{ margin-top: 10px; }
+
+/* widgets */
+
+
+div.widget{ margin-top: 20px;}
+
+div#whats_euruko img,
+div.widget img{ margin-right: 10px; }
+
+div#whats_euruko h2,
+div.widget h2{ border-bottom: 1px dotted #71706d; margin-bottom: 10px;}
+
+div.widget h2 a{ font-weight: normal; }
+
+p.micro_sponsors{ margin: 10px 0; }
+
+div.widget.sponsors p{ text-align: center; margin-bottom: 10px; }
+div.widget.sponsors p.proruby{ margin-top: 10px; }
+
+/*div.widget.sponsors p img{ border: 1px solid #71706D; } */
+/* general styles */
+
+/* h2 {
+color:#4d4948;
+font-size: 150%;
+font-weight:normal;
+margin:0;
+padding:0px 0;
+} */
+h2{
+  font-size: 16px;
+  font-family: Georgia;
+  line-height: 25px;
+  color: #71706d;
+}
+
+p { font-family: Tahoma; color: #71706d; font-size: 13px; line-height: 18px;}
+a { color: #da251c; font-weight: bold; text-decoration: none;}
+
+span.red { color: #da251c; }
+.clear { clear: both }
+
